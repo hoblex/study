@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-console.log("Hello World");
-console.log("Привет!");
-=======
 let money, time;
 
 money = prompt("Ваш бюджет на месяц?", "100000");
@@ -28,4 +24,4 @@ console.log(appData.expenses);
 console.log(appData.optionalExpenses);
 console.log(appData.income);
 console.log(appData.savings)
->>>>>>> 728d257b1338a4c6007f591bcc1cd91d924cdb3f
+
