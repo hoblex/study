@@ -19,13 +19,15 @@ console.log("1"[0]);
 console.log(2 && 1 && null && 0 && undefined );
 
     // Есть ли разница между выражениями? !!( a && b ) и (a && b)?
-console.log(2&&3);
+console.log("Есть ли разница между выражениями? !!( a && b ) и (a && b)" + " " + (true&&false));
     // Что выведет этот код: alert( null || 2 && 3 || 4 ); ?
-    //
+console.log(null || 2 && 3 || 4 );
     // a = [1, 2, 3]; b = [1, 2, 3]; Правда ли что a == b ?
-    //
-    // Что выведет этот код: alert( +"Infinity" ); ?
-    //
-    // Верно ли сравнение: "Ёжик" > "яблоко"?
-    //
+let a = [1, 2, 3], b = [1, 2, 3];
+console.log(a === b);
+// Что выведет этот код: alert( +"Infinity" ); ?
+console.log(+"Infinity");
+// Верно ли сравнение: "Ёжик" > "яблоко"?
+console.log("Ёжик" > "яблоко");
     // Чему равно 0 || "" || 2 || undefined || true || falsе ?
+console.log(0 || "" || 2 || undefined || true || falsе);
